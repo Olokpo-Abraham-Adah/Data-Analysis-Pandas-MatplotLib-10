@@ -1,0 +1,4 @@
+plt.figure(figsize=(10,5))
+plt.title("Attack Frequency by Motive")
+sb.countplot(data=df, y='Motive', color=base_color, order=motive_order)
+plt.xticks(rotation=15);
